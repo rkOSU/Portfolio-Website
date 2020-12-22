@@ -34,10 +34,18 @@
     font-size: 3rem;
   }
 
-  .fa-linkedin {
+  .fa-linkedin{
     margin-left: 0.5rem;
     font-size: 1.4rem;
   }
+
+  .fa-github{
+    margin-left: 0.5rem;
+    font-size: 1.4rem;
+  }
+  
+  
+
   
   .nav-menu {
     display: grid;
