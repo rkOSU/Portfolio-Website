@@ -1,5 +1,6 @@
-import React from 'react'
-import { Button } from './Button'
+import React from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './HeroSection.css';
 import '../App.css';
 function HeroSection() {
@@ -9,13 +10,15 @@ function HeroSection() {
             <h1>Raj Rohan Kondaveeti</h1>
             <p>4th Yr. Computer Science and Engineering Student</p>
             <p>Ohio State University</p>
-            <div class="hero-btns">
-                 <Button 
-                className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-                >Resume</Button> 
-                 <Button 
+            <div className="hero-btns">
+               <Link to='/h'>
+                    <Button 
+                    className='btns'
+                    buttonStyle='btn--outline'
+                    buttonSize='btn--large'
+                    >Resume</Button> 
+                </Link>
+                <Button 
                 className='btns'
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
