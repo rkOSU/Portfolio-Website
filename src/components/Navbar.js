@@ -30,7 +30,15 @@ function Navbar() {
         <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="" className="navbar-logo" onClick={closeMobileMenu}>
+                <Link 
+                to="hero"
+                className="navbar-logo"
+                activeClass='active'
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                onClick={closeMobileMenu}>
                     RK <i class="fab fa-grav"></i>
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
@@ -38,7 +46,14 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className="nav-item">
-                        <Link to='/about' className="nav-links" onClick={() => {
+                        <Link to='about'
+                        activeClass='active'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className="nav-links" 
+                        onClick={() => {
                             closeMobileMenu();
                             console.log('hi');
                         } }>
@@ -59,7 +74,7 @@ function Navbar() {
                         </Link>   
                     </li>
                     <li className="nav-item">
-                        <LinkExternal to='/projects' className="nav-links-mobile" onClick={closeMobileMenu} to={{ pathname: 'https://www.linkedin.com/in/raj-kondaveeti-081167166/' }} target="_blank">
+                        <LinkExternal className="nav-links-mobile" onClick={closeMobileMenu} to={{ pathname: 'https://www.linkedin.com/in/raj-kondaveeti-081167166/' }} target="_blank">
                            LinkedIn<i class="fab fa-linkedin"></i>
                         </LinkExternal>   
                     </li>
