@@ -54,13 +54,13 @@
 
 @media screen and (max-width: 960px) {
     .img__container > img {
-        height: 400px;
+        height: 300px;
     }
     .about__container {
         display: flex;
         flex-flow: column;
         align-items: center;
-        max-width: 1120px;
+        max-width: 40px;
         width: 90%;
         margin: 0 auto;
         
@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 375px) {
     .about__container {
-        display: grid;
+        display: flex;
         flex-flow: column;
         align-items: center;
         max-width: 1120px;
