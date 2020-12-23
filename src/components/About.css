@@ -91,8 +91,20 @@
 
     .content__container{
         position: relative;
-      
+        
     }
+    .content__container > p{
+        font-size: 19px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        justify-content: center;
+        vertical-align: middle;
+        text-align: center;
+        padding-right: 0rem;
+        
+        
+        
+    }
+
 }
 
 @media screen and (max-width: 375px) {
