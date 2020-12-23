@@ -1,28 +1,27 @@
 .about {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 4rem;
     background: #fff;
 }
 
 .img__container{
     position: relative;
-    margin-top: 50px;
+    padding: 30px;
+   
 }
 .content__container{
     position: relative;
-    margin-top: 50px;
-    
-   
-    
+    padding: 0px 30px;
     
 }
 .content__container > p{
-    font-size: 22px;
+    font-size: 19px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     vertical-align: middle;
     text-align: center;
+    padding-right: 2rem;
     
     
     
@@ -31,10 +30,9 @@
 
 .img__container > img {
     height: 500px;
-    box-shadow: 0 10px 40px rgba(56, 125, 255, 0.17);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+   
     border-radius: 20px;
+
     
 }
 .about__container {
@@ -46,7 +44,12 @@
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    
+    margin-top: 20px;
+
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     
     
 }
@@ -64,24 +67,31 @@
 
 @media screen and (max-width: 960px) {
     .img__container > img {
-        height: 300px;
+        height: 250px;
+        
+    }
+
+    .img__container{
+        position: relative;
+        
+       
     }
     .about__container {
         display: flex;
         flex-flow: column;
         align-items: center;
-        max-width: 40px;
+        max-width: 2000px;
         width: 90%;
-        margin: 0 auto;
+       
+        padding-top:2rem;
+        padding-bottom: 4rem;
         
         
     }
 
     .content__container{
         position: relative;
-        margin-top: -100px;
-        margin-left: -150px;
-        margin-right: -150px;
+      
     }
 }
 
@@ -93,15 +103,17 @@
         max-width: 1120px;
         width: 90%;
         margin: 0 auto;
+        padding-top:2rem;
+        padding-bottom: 4rem;
+        border-radius: none;
+        box-shadow: none;
         
         
     }
 
     .content__container{
         position: relative;
-        margin-top: -50px;
-        margin-left: -40px;
-        margin-right: -40px;
+       
     }
 }
 
