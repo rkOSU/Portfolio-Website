@@ -12,12 +12,20 @@
 .content__container{
     position: relative;
     margin-top: 50px;
+    
+   
+    
+    
 }
 .content__container > p{
     font-size: 22px;
-    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
     vertical-align: middle;
     text-align: center;
+    
+    
+    
 }
 
 
@@ -38,6 +46,8 @@
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+    
+    
     
 }
 
