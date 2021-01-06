@@ -9,6 +9,11 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
+                        src='images/mockify.png'
+                        text='"Mockify": Spotify Music App Clone built using React Native'
+                        label='Personal'
+                        path='https://github.com/rkOSU/Mockify'/>
+                        <CardItem
                         src='images/hack.png'
                         text='HackOHIO 2020 (Hackathon) Project'
                         label='Personal'
@@ -18,11 +23,7 @@ function Cards() {
                         text='To-Do List built using React'
                         label='Personal'
                         path='https://github.com/rkOSU/ToDo-Using-React'/>
-                        <CardItem
-                        src='images/amazon.jpg'
-                        text='Amazon Price Tracker written in Python'
-                        label='Personal'
-                        path='https://github.com/rkOSU/Price-Tracker'/>
+                        
                         
                         
                         
@@ -30,6 +31,11 @@ function Cards() {
                 </div>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
+                        <CardItem
+                        src='images/amazon.jpg'
+                        text='Amazon Price Tracker written in Python'
+                        label='Personal'
+                        path='https://github.com/rkOSU/Price-Tracker'/>
                         <CardItem
                         src='images/py.png'
                         text='Game of Python - Snake written in Python'
@@ -40,12 +46,13 @@ function Cards() {
                         text='CHIP-8 Emulator written in C++ (In-Progress)'
                         label='Personal'
                         path='https://github.com/rkOSU/Chip-8'/>
-                        
                         <CardItem
                         src='images/quandary.png'
                         text='Quandary Language Interpreter written in Java'
                         label='Academic'
                         path='https://github.com/rkOSU/3341-Public'/>
+
+                        
                         
                         
                     </ul>

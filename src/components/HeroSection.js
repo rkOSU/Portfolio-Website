@@ -11,7 +11,7 @@ function HeroSection() {
             <p>4th Yr. Computer Science and Engineering Student</p>
             <p>Ohio State University</p>
             <div className="hero-btns">
-               <Link className="button" to={{ pathname: 'https://osu.box.com/s/3v4ar6tzkqi0mq6cae002h6e9mvan7id' }} target="_blank">
+               <Link className="button" to={{ pathname: 'https://drive.google.com/file/d/1YlouZqVp78ZMDiDE4llbubUdo-tjKjQm/view?usp=sharing' }} target="_blank">
                 Resume
                 </Link>
                 &nbsp;&nbsp;&nbsp;

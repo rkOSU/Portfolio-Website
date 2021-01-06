@@ -108,6 +108,10 @@
 }
 
 @media screen and (max-width: 375px) {
+    .img__container > img {
+        height: 250px;
+        
+    }
     .about__container {
         display: flex;
         flex-flow: column;
@@ -115,10 +119,10 @@
         max-width: 1120px;
         width: 90%;
         margin: 0 auto;
+        
         padding-top:2rem;
         padding-bottom: 4rem;
-        border-radius: none;
-        box-shadow: none;
+
         
         
     }
