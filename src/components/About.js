@@ -15,7 +15,7 @@ function About() {
                         and have found the classes in this track to be very interesting. For that reason, I wish
                         to venture into software development which incorporates topics such as machine learning
                         and neural networks. </p>
-                    <p>Apart from that, I also find agricultrue very interesting and often think about the integration of
+                    <p>Apart from that, I also find agriculture very interesting and often think about the integration of
                         it with technology. In fact, the picture on the left is from an agriculture service trip I took to Uruguay
                         over a winter break! Feel free to contact me if you would like to get in touch.
          
