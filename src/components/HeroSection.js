@@ -15,6 +15,10 @@ function HeroSection() {
                 Resume
                 </Link>
                 &nbsp;&nbsp;&nbsp;
+                <Link className="button" to={{ pathname: 'https://drive.google.com/file/d/1O5B2e6Tua-1DE_JLHbtDFM9UoD20XU3V/view?usp=sharing' }} target="_blank">
+                CV
+                </Link>
+                &nbsp;&nbsp;&nbsp;
                <Link className="button" to={{ pathname: 'https://cardurl.com/bb68359e' }} target="_blank">
                 Contact Me
                </Link>
