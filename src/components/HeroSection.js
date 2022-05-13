@@ -8,8 +8,9 @@ function HeroSection() {
         <div className='hero-container' id='hero'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
             <h1>Raj Rohan Kondaveeti</h1>
-            <p>4th Yr. Computer Science and Engineering Student</p>
-            <p>Ohio State University</p>
+            <p>Software Integration Engineer</p>
+            <p1>General Motors</p1>
+            <p2>Ohio State University</p2>
             <div className="hero-btns">
                <Link className="button" to={{ pathname: 'https://drive.google.com/file/d/1YlouZqVp78ZMDiDE4llbubUdo-tjKjQm/view?usp=sharing' }} target="_blank">
                 Resume
