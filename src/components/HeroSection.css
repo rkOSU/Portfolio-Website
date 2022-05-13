@@ -24,10 +24,16 @@ video{
     font-size: 50px;
     margin-top: 150px;
 }
-.hero-container > h2, h3, p {
+.hero-container > h2 {
     margin-top: 8px;
     color: white;
     font-size: 32px;
+    font-family: 'Trebuchet MS'
+}
+.hero-container > h3 {
+    margin-top: 8px;
+    color: white;
+    font-size: 25px;
     font-family: 'Trebuchet MS'
 }
 
