@@ -13,7 +13,7 @@ function HeroSection() {
             <h3>MS in Computer Science Candidate at Georgia Institute of Technology</h3>
             <h3>BS in Computer Science and Engineering with AI Specialization from Ohio State University</h3>
             <div className="hero-btns">
-               <Link className="button" to={{ pathname: 'https://drive.google.com/file/d/1YlouZqVp78ZMDiDE4llbubUdo-tjKjQm/view?usp=sharing' }} target="_blank">
+               <Link className="button" to={{ pathname: 'https://drive.google.com/file/d/13hI5aW3KwqAWSHDXFTlsg3raMtxkFc-q/view?usp=sharing' }} target="_blank">
                 Resume
                 </Link>
                 &nbsp;&nbsp;&nbsp;
